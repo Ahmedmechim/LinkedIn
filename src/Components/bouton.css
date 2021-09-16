@@ -1,0 +1,16 @@
+.bouton{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: gray;
+    cursor: pointer;
+}
+.bouton h4{
+    margin-left: 10px;
+    padding-left: 0;
+}
+.bouton:hover {
+    background-color:rgb(235, 235, 235) ;
+    border-radius: 10px;
+}

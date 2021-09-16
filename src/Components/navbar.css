@@ -1,0 +1,150 @@
+.navBar {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 53px;
+  width: 100%;
+  background-color: white;
+}
+.navBar img {
+  margin-left: 10%;
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+}
+.navBar input {
+  height: 32px;
+  width: 20%;
+  background-color: #eef3f8;
+  border: none;
+  margin-right: 90px;
+}
+.search {
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+height: 34px;
+width: 34px;
+/* transform: scale(1.4); */
+  color: rgb(128, 118, 118);
+  background-color: #eef3f8;
+}
+.icon{
+  color: gray;
+  transform: translateY(9px);
+  margin-left: 30px;
+  padding: 0;
+  height: 53px;
+align-content: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.icon:hover{
+  color: black;
+}
+.icon i{
+
+  transform: scale(1.5);
+}
+.icon p{
+  font-size: 12px;
+  transform: translateY(-5px);
+}
+.sousLigne {
+  background-color: black;
+  transform: translate(-15% ,-15px);
+  height: 2px;
+  width: 150%;
+}
+.prof{
+  margin-left: 30px;
+  cursor: pointer;
+}
+.prof img{
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  margin: 0;
+}
+.prof .vous{
+  display: flex;
+  justify-content: center;
+}
+.prof .vous:hover{
+  color: black;
+}
+.prof p{
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
+.prof .triangle{
+  transform: rotate(90deg);
+}
+.barr{
+  margin-left:30px ;
+  width: 2px;
+  height: 100%;
+  background-color: #f3f2ef;
+}
+.iconn{
+  color: gray;
+  transform: translateY(9px);
+  margin-left: 30px;
+  padding: 0;
+  height: 53px;
+align-content: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.iconn:hover{
+  color: black;
+}
+.iconn i{
+  transform: scale(1.5);
+}
+.iconn p{
+  font-size: 12px;
+  /* transform: translateY(-5px); */
+}
+.iconn .vous{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transform: translateY(-5px);
+}
+.vous .triangle{
+  transform: rotate(90deg);
+}
+.essayer{
+  height: 53px;
+  width: 125px;
+  font-size: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+ 
+}
+.essayer:hover {
+  color: rgb(93, 59, 9);
+  text-decoration: underline;
+}
+
+.ant-badge-count {
+  /* z-index: auto; */
+  /* min-width: 20px; */
+  height: 20px;
+  padding: 0 5px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-align: center;
+  background: #ff4d4f;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #fff;
+}

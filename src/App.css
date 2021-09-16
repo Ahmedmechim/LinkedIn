@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  z-index: -1;
+  background-color: #f3f2ef;
+}
+
+.profil {
+  margin-top: 80px;
+}
+.profil img {
+  width: 100%;
+}
+.image1 {
+  border-radius: 10px 10px 0% 0%;
+}
+.image2 {
+  transform: scale(0.4);
+  border-radius: 50%;
+  margin-top: -50%;
+}
+.nom {
+  background-color: #ffffff;
+  padding-top: 35%;
+  margin-top: -50%;
+  padding-bottom: 10%;
+}
+.nom h3 {
+  margin: 0;
+}
+.nom h5 {
+  margin: 0;
+}
+.vue {
+  background-color: #ffffff;
+  padding-top: 5%;
+  margin-top: 1%;
+  padding-bottom: 10%;
+  text-align: left;
+}
+
+.vue h5 {
+  margin: 0;
+}
